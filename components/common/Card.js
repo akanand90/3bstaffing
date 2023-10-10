@@ -17,13 +17,13 @@ export const Card = ({ data, caption, show, path }) => {
             <span> {data.catgeory} </span> {data.date && <span> / {data.date}</span>}
           </div>
 
-          {show && (
+          {/* {show && (
             <ul>
               {data.desc.map((text, i) => (
                 <li key={i}> - {text.text}</li>
               ))}
             </ul>
-          )}
+          )} */}
         </div>
       </div>
     </>
