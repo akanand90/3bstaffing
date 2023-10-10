@@ -13,17 +13,21 @@ export const Card = ({ data, caption, show, path }) => {
           <Link href={`${path}/${data.id}`} className='title-link'>
             <TitleSm title={data.title} />
           </Link>
+<<<<<<< HEAD
           <div className='flex'>
             <span> {data.catgeory} </span> {data.date && <span> / {data.date}</span>}
           </div>
+=======
+          {caption && (
+            <Link href={`${path}/${data.id}`}>
+              {caption} <HiOutlineArrowRight className='link-icon' />
+            </Link>
+          )}
+     
 
-          {/* {show && (
-            <ul>
-              {data.desc.map((text, i) => (
-                <li key={i}> - {text.text}</li>
-              ))}
-            </ul>
-          )} */}
+       
+>>>>>>> d60779c... cart
+
         </div>
       </div>
     </>

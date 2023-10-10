@@ -42,7 +42,7 @@ const Header = () => {
               Services
             
                
-                <div className="dropdown">
+                <p className="dropdown">
                 
                 <Link href='/globaltalent' className={activeLink == "/globaltalent" ? "activeLink" : "none"}>
             Global Talent 
@@ -50,7 +50,7 @@ const Header = () => {
             <Link href='/helthcaretalent' className={activeLink == "/helthcaretalent" ? "activeLink" : "none"}>
               Health Care Talent
             </Link>
-                </div>
+                </p>
                 </Link>
             
             {/* <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
