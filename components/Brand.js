@@ -12,7 +12,7 @@ const Brand = () => {
           </div>
           <div className='brand-content grid-6 py'>
             {brand.map((item) => (
-              <div className='imagess' key={item.id}>
+              <div className='images' key={item.id}>
                 <img src={item.cover} alt={item.id} width='100%' height='100%' />
               </div>
             ))}
