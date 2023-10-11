@@ -1,4 +1,4 @@
-import images from 'next/images'
+
 export const TitleLogo = ({ title, caption, className }) => {
   return (<img src='images/staffinglogo.png' alt="logo" width={200}/>
     // <h1 className={`${className}  title-logo`}>
