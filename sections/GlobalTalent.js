@@ -38,7 +38,7 @@ Hire and scale contract talent worldwide'/>
     <br/>
   </div>
   <div class="p-2" style={{"width":800}}>
-<img src="../images/healthimg1.jpg" width='100%'/>
+<img src="image/healthimg1.jpg" width='100%'/>
   </div>
   
     </div>
@@ -47,7 +47,7 @@ Hire and scale contract talent worldwide'/>
 
  <div class="d-flex justify-content-between">
  <div class="p-2" style={{"width":800}}>
-<img src="../images/healthimg1.jpg" width='100%'/>
+<img src="image/healthimg1.jpg" width='100%'/>
   </div>
   <div class="p-2" style={{"width":400}}>
     <h4>DIRECT HIRE
@@ -71,7 +71,7 @@ Hire and scale contract talent worldwide'/>
     <br/>
   </div>
   <div class="p-2" style={{"width":800}}>
-<img src="../images/healthimg1.jpg" width='100%'/>
+<img src="image/healthimg1.jpg" width='100%'/>
   </div>
   
     </div>
@@ -80,7 +80,7 @@ Hire and scale contract talent worldwide'/>
 
  <div class="d-flex justify-content-between">
  <div class="p-2" style={{"width":800}}>
-<img src="../images/healthimg1.jpg" width='100%'/>
+<img src="image/healthimg1.jpg" width='100%'/>
   </div>
   <div class="p-2" style={{"width":400}}>
     <h4>GLOBAL MSP
@@ -110,7 +110,7 @@ Hire and scale contract talent worldwide'/>
     <br/>
   </div>
   <div class="p-2" style={{"width":800}}>
-<img src="../images/healthimg1.jpg" width='100%'/>
+<img src="image/healthimg1.jpg" width='100%'/>
   </div>
   
     </div>
