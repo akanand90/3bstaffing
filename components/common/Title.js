@@ -1,6 +1,6 @@
-import Image from 'next/image'
+import images from 'next/images'
 export const TitleLogo = ({ title, caption, className }) => {
-  return (<img src='image/staffinglogo.png' alt="logo" width={200}/>
+  return (<img src='images/staffinglogo.png' alt="logo" width={200}/>
     // <h1 className={`${className}  title-logo`}>
     //   <span>{caption}</span>
     //   {title}

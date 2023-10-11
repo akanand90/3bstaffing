@@ -63,7 +63,7 @@ const Testimonial = () => {
               {testimonial.map((user) => (
                 <div>
                   <div className='card'>
-                    <div className='image'>
+                    <div className='images'>
                       <div className='img'>
                         <img src={user.cover} alt=''/>
                       </div>

@@ -42,7 +42,7 @@ const HealthcareTalent = () => {
     <Accordion title="Electronic Medical Record (EMR)" content="3B EMR staffing solutions ensure smooth Electronic Medical Record (EMR) transitions, integrations and updates, each step of the way — from discovery, to system implementation and upgrades, through to completion" />
   </div>
   <div class="p-2" style={{"width":800}}>
-<img src="image/healthimg1.jpg" width='100%'/>
+<img src="images/healthimg1.jpg" width='100%'/>
   </div>
   
     </div>
@@ -52,7 +52,7 @@ const HealthcareTalent = () => {
 
     <div class="d-flex justify-content-between">
     <div class="p-2" style={{"width":800}}>
-<img src="image/healthimg1.jpg" width='100%'/>
+<img src="images/healthimg1.jpg" width='100%'/>
   </div>
   <div class="p-2" style={{"width":400}}>
     <h4>End-to-End Allied Health Staffing Solutions</h4>
@@ -80,7 +80,7 @@ const HealthcareTalent = () => {
 
   </div>
   <div class="p-2" style={{"width":800}}>
-<img src="image/healthimg1.jpg" width='100%'/>
+<img src="images/healthimg1.jpg" width='100%'/>
   </div>
   
     </div>
