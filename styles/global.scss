@@ -13,7 +13,7 @@
     left: -40%;
     width: 180%;
     height: 200vh;
-    background-images: url("../assets/imagess/art-top-cropp.jpg");
+    background-image: url("assets/images/art-top-cropp.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -84,7 +84,7 @@
       font-size: $xl;
       line-height: $xl-5;
     }
-    .images {
+    .image {
       @include flex(center, none, none);
       margin-bottom: $xl-4;
       .img {
@@ -195,7 +195,7 @@ footer {
     left: 0;
     width: 100% !important;
     height: 60vh;
-    background-images: url("../assets/imagess/blurfooter-min.png");
+    background-image: url("assets/images/blurfooter-min.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -212,7 +212,7 @@ footer {
     left: 0;
     width: 100% !important;
     height: 60vh;
-    background-images: url("../assets/imagess/blurfooter-min.png");
+    background-image: url("assets/images/blurfooter-min.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
