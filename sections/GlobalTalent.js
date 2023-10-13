@@ -8,7 +8,7 @@ const GlobalTalent = () => {
     
   return (
     <>
-      <section className='agency bg-top'>
+      <section className='global-talent'>
         <div className='container'>
           <div className='heading-title'>
             
@@ -34,7 +34,7 @@ Hire and scale contract talent worldwide'/>
     <h4>CONTRACT STAFFING
     </h4>
 <h5>Hire and scale contract talent worldwide</h5>
-    <p>Business needs are changing so quickly that you must be able to access skills with speed and flexibility to remain competitive. eTeam recruiters are located worldwide to maintain close relationships with regional talent markets, so you can secure the professionals you require to achieve your business goals. Through eTeam, you can safely contract talent in more than 50 countries for IT, clinical, scientific, engineering, and professional roles, at any scale.</p><br/>
+    <p>Business needs are changing so quickly that you must be able to access skills with speed and flexibility to remain competitive. 3b staffing recruiters are located worldwide to maintain close relationships with regional talent markets, so you can secure the professionals you require to achieve your business goals. Through 3b staffing, you can safely contract talent in more than 50 countries for IT, clinical, scientific, engineering, and professional roles, at any scale.</p><br/>
     <br/>
   </div>
   <div class="p-2" style={{"width":800}}>
@@ -53,7 +53,7 @@ Hire and scale contract talent worldwide'/>
     <h4>DIRECT HIRE
     </h4>
 <h5>Direct-hire international employees with confidence</h5>
-    <p>In a competitive market, winning over top talent begins by creating a positive candidate experience. Since 1999, we have built a large talent community by nurturing long-term relationships based on respect. So that when we introduce candidates to your role, they see your brand with greater excitement and trust. Our commitment to building lasting relationships is what makes half of the Fortune 500 companies consider eTeam their end-to-end talent solution.</p><br/>
+    <p>In a competitive market, winning over top talent begins by creating a positive candidate experience. Since 1999, we have built a large talent community by nurturing long-term relationships based on respect. So that when we introduce candidates to your role, they see your brand with greater excitement and trust. Our commitment to building lasting relationships is what makes half of the Fortune 500 companies consider 3b staffing their end-to-end talent solution.</p><br/>
     <br/>
   </div>
 
@@ -124,10 +124,10 @@ Hire and scale contract talent worldwide'/>
             <Title title='DIVERSITY IS INTENTIONALLY BUILT IN'  className='title-bg' />
              <br />
             <br />
-            <TitleSm title='
+            <h5>
 3B embraced diversity from its inception as it was founded by subject matter experts coming together from
 disparate countries. Our award-winning tools and processes deliberately prioritize diversity and equity to help
-you make good on your DE&I promises.'/>
+you make good on your DE&I promises.</h5>
            
           </div>
           </div>
