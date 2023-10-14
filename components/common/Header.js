@@ -15,7 +15,7 @@ const Header = () => {
   }, [router.pathname])
   return (
     <>
-      <header>
+      <header className="header">
         <div className='container'>
           <div className='logo'>
             <Link href='/'>
@@ -31,10 +31,10 @@ const Header = () => {
             <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
               Agency
             </Link>
-            <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
+            <Link href='/career' className={activeLink == "/career" ? "activeLink" : "none"}>
             Careers
             </Link>
-            <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
+            <Link href='/clients' className={activeLink == "/showcase" ? "activeLink" : "none"}>
             Clients
 
             </Link>

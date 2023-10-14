@@ -148,7 +148,7 @@
 //showcase
 .showcase {
   .card-img {
-    height: 400px;
+  height: 100%;;
   }
   .links {
     @include flex(none, flex-end, none);

@@ -25,28 +25,21 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/agency'>About agency</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/career'>Our career</Link>
               </li>
+          
+             
               <li>
-                <Link href='/'>Showcase</Link>
-              </li>
-              <li>
-                <Link href='/'>Blog</Link>
-              </li>
-              <li>
-                <Link href='/'>Demo design system</Link>
-              </li>
-              <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Staffing Services</Link>
+                <Link href='/service'>Staffing Services</Link>
               </li>
               <li>
                 <Link href='/'>Application Development</Link>
@@ -77,7 +70,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link target="_blank" href='https://www.linkedin.com/company/3b-staffing-llc/mycompany/'>
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
@@ -86,7 +79,7 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2023 Design And Develop by Akhilesh </span>
             </div>
             <div className='connect'>
               <span>3B Staffing</span>

@@ -5,19 +5,19 @@ import { BiUser } from "react-icons/bi"
 
 export const home = [
   {
-    icon: <AiOutlineCalendar size={25} />,
+    icon: <AiOutlineCalendar size={100} />,
     title: "10+ years of market experience",
   },
   {
-    icon: <TfiRulerPencil size={25} />,
+    icon: <TfiRulerPencil size={100} />,
     title: "Unique technologies & modern approach ",
   },
   {
-    icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    icon: <VscFileSubmodule size={100} />,
+    title: "500+ cuccessful cases in portfolio",
   },
   {
-    icon: <BiUser size={25} />,
+    icon: <BiUser size={100} />,
     title: "Customer satisfaction is our top priority",
   },
 ]
@@ -50,16 +50,16 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
+    name: "Dipanshu Mehta",
     cover: "images/e1.jpg",
-    post: "Seven consulting - CEO",
+    post: "",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "Amandeep",
     cover: "images/e2.jpg",
-    post: "Seven Arts - marketing manager",
+    post: "",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
   {
@@ -80,66 +80,123 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
-    cover: "images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    // title: "Neon Lights",
+    cover: "images/clients1.jpg",
+    // catgeory: "DIGITAL MARKETING",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
+    // title: "Futuristic Furniture",
     catgeory: "WEBSITES",
-    cover: "images/s2.jpg",
+    // cover: "images/clients.jpg",
   },
   {
     id: 3,
-    title: "Smart Living",
-    cover: "images/s3.jpg",
-    catgeory: "WEBSITES",
+    // title: "Smart Living",
+    cover: "images/clients3.jpg",
+    // catgeory: "WEBSITES",
   },
   {
     id: 4,
-    title: "Light Painting",
-    cover: "images/s4.jpg",
-    catgeory: "BRANDING	",
+    // title: "Light Painting",
+    cover: "images/clients4.jpg",
+    // catgeory: "BRANDING	",
   },
   {
     id: 5,
-    title: "Ideabox",
-    cover: "images/s5.jpg",
-    catgeory: "BRANDING	",
+    // title: "Ideabox",
+    cover: "images/clients5.jpg",
+    // catgeory: "BRANDING	",
   },
   {
     id: 5,
-    title: "VR Experience",
-    cover: "images/s6.jpg",
-    catgeory: "WEBSITES	",
+    // title: "VR Experience",
+    cover: "images/clients6.jpg",
+    // catgeory: "WEBSITES	",
+  },
+  {
+    id: 5,
+    // title: "VR Experience",
+    cover: "images/clients7.jpg",
+    // catgeory: "WEBSITES	",
+  },
+  {
+    id: 5,
+    // title: "VR Experience",
+    cover: "images/clients8.jpg",
+    // catgeory: "WEBSITES	",
+  },
+  {
+    id: 5,
+    // title: "VR Experience",
+    cover: "images/clients9.jpg",
+    // catgeory: "WEBSITES	",
+  },
+  {
+    id: 5,
+    // title: "VR Experience",
+    cover: "images/clients10.jpg",
+    // catgeory: "WEBSITES	",
+  },
+  {
+    id: 5,
+    // title: "VR Experience",
+    cover: "images/clients11.jpg",
+    // catgeory: "WEBSITES	",
+  },
+  {
+    id: 5,
+    // title: "VR Experience",
+    cover: "images/clients12.jpg",
+    // catgeory: "WEBSITES	",
   },
 ]
 export const brand = [
   {
     id: 1,
-    cover: "images/l1.svg",
-  },
-  {
-    id: 2,
-    cover: "images/l2.svg",
-  },
-  {
-    id: 3,
-    cover: "images/l3.svg",
+    cover: "images/clients1.jpg",
   },
   {
     id: 4,
-    cover: "images/l4.svg",
+    cover: "images/clients3.jpg",
   },
   {
     id: 5,
-    cover: "images/l5.svg",
+    cover: "images/clients4.jpg",
   },
   {
     id: 6,
-    cover: "images/l6.svg",
+    cover: "images/clients5.jpg",
   },
+  {
+    id: 3,
+    cover: "images/clients6.jpg",
+  },
+  {
+    id: 2,
+    cover: "images/clients7.jpg",
+  },
+  {
+    id: 6,
+    cover: "images/clients8.jpg",
+  },
+  {
+    id: 3,
+    cover: "images/clients9.jpg",
+  },
+  {
+    id: 2,
+    cover: "images/clients10.jpg",
+  },
+  {
+    id: 6,
+    cover: "images/clients11.jpg",
+  },
+  {
+    id: 3,
+    cover: "images/clients12.jpg",
+  },
+ 
 ]
 export const blogdata = [
   {
@@ -174,13 +231,13 @@ export const blogdata = [
 export const teamdata = [
   {
     id: 1,
-    title: "Alexander Black",
+    title: "Dipanshu Mehta",
     cover: "images/t1.jpg",
     post: "FOUNDER, CEO",
   },
   {
     id: 2,
-    title: "Anna Kovalenko",
+    title: "Dipanshu Mehta",
     cover: "images/t2.jpg",
     post: "FINANCE DIRECTOR",
   },
@@ -216,7 +273,7 @@ export const teamdata = [
   },
   {
     id: 8,
-    title: "Join our team!",
+    title: "Join our career!",
     cover: "images/t8.jpg",
     post: "",
   },

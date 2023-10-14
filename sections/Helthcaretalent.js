@@ -62,7 +62,7 @@ const HealthcareTalent = () => {
 
     <Accordion title="Imaging" content="3B’s best-in-class imaging and radiology staffing services help you fill positions across a spectrum of specialty and practice settings - hospitals, doctor's offices, urgent care centers, outpatient surgery centers, diagnostic labs and imaging centers" />
     <Accordion title="Respiratory " content="Healthcare facilities across the globe depend on 3b staffing for qualified candidates to fill laboratory positions. Our talent pool is pre-vetted, ready-to-work and spans a variety of disciplines and settings – from local contractors and travel clinicians, to seasonal staffing or per diem workers." />
-    <Accordion title="Therapy" content="Our robust network of qualified and trusted therapy professionals will relieve your   therapy staffing needs. Our outstanding customer service and expert team of therapy professionals will take your therapy staffing to the next level." />
+    <Accordion title="Therapy" content="Our robust network of qualified and trusted therapy professionals will relieve your   therapy staffing needs. Our outstanding customer service and expert career of therapy professionals will take your therapy staffing to the next level." />
     <Accordion title="Local and Per-diem" content="We specialize in recruiting for per-diem   healthcare professionals. As your trusted partner, our   per-diem staffing solutions will meet your current and future needs." />
 
   </div>

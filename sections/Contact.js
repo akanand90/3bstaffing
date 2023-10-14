@@ -1,10 +1,12 @@
 import { Title, TitleSm } from "@/components/common/Title"
+import Link from "next/link"
 import React from "react"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
+import next from "next"
 
 const Contact = () => {
   return (
@@ -21,12 +23,12 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>(973) 988-4546</h3>
+                  <h4>(973) 988-4546</h4>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h3>3B Staffing LLC</h3>
+                  <h4>3B Staffing LLC</h4>
                   <span>485B US Highway 1 S, STE 300, Iselin, New Jersey 08830, United States
 
 
@@ -36,8 +38,8 @@ const Contact = () => {
 
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h2>Offshore - India - Noida</h2>
-                  <h3>3B Staffing LLC</h3>
+                  <h3>Offshore - India - Noida</h3>
+                  <h4>3B Staffing LLC</h4>
                   <span>H-32, Sector 63, Noida, UP 201301
 
 
@@ -46,8 +48,8 @@ const Contact = () => {
 
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h2>Offshore - India - Hyderabad - Nizampet</h2>
-                  <h3>3B Staffing LLC</h3>
+                  <h4>Offshore - India - Hyderabad - Nizampet</h4>
+                  <h4>3B Staffing LLC</h4>
                   <span>SS Mansion, Floor 4, Nizampet Rd, E Block, Nizampet, Hyderabad, Telangana 500090, India
 
 
@@ -55,12 +57,12 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>Email: info@3bstaffing.com</h3>
+                  <h4>Email: info@3bstaffing.com</h4>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@3bstaffing.com</h3>
+                  <h4>hr@3bstaffing.com</h4>
                   {/* <span>Career at Seven Creative</span> */}
                 </div>
               </div>
@@ -75,7 +77,9 @@ const Contact = () => {
                   <AiFillInstagram size={25} />
                 </li>
                 <li className='icon'>
-                  <AiFillLinkedin size={25} />
+                <Link target="_blank" href='https://www.linkedin.com/company/3b-staffing-llc/mycompany/'>
+                    <AiFillLinkedin size={25} />
+                  </Link>
                 </li>
               </ul>
             </div>
