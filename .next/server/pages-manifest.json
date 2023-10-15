@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/": "pages/index.js",
   "/career": "pages/career.js",
-  "/contact": "pages/contact.js",
-  "/agency": "pages/agency.js",
-  "/": "pages/index.js"
+  "/clients": "pages/clients.js",
+  "/agency": "pages/agency.js"
 }

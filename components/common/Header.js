@@ -52,26 +52,12 @@ const Header = () => {
             </Link>
                 </p>
                 </Link>
-            
-            {/* <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-            INDUSTRIES
-
-            </Link> */}
-            
-            {/* <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-    
-            Careers
-
-            </Link> */}
-            {/* <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
-              Blog
-            </Link> */}
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>
           
           </nav>
-          <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}</button>
+          <button onClick={() => setOpen(!open)}>{open ? <AiOutlineClose size={25}  color="red"/> : <RiMenu4Line size={25} color="red"/>}</button>
         </div>
       </header>
     </>

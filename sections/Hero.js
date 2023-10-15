@@ -13,23 +13,8 @@ const Hero = () => {
     <>
   
       <section className='hero'>
-      <Slider/>
-        <div className='container'>
-          {/* <TitleLogo title='Staffing' caption='3B' className='logobg' /> */}
-          <h1 className='hero-title'>EXPERIENCED, PERSONALIZED IT CONSULTING</h1>
-          <p>Let us build the infrastructure for your success!</p>
-
-          {/* <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
-            <TitleSm title='DIGITAL MARKETING' />
-          </div> */}
-         <video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4"/>
-  
-        </video>
-        </div>
-   
+      <video src="images/slidervideo.mp4" width='100%' loop controls/>
+    
       </section>
       <section> 
       
