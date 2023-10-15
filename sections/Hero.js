@@ -13,7 +13,7 @@ const Hero = () => {
     <>
   
       <section className='hero'>
-      <video src="images/slidervideo.mp4" width='100%' loop controls/>
+      <video src="images/slidervideo.mp4" width='100%' autoPlay loop controls/>
     
       </section>
       <section> 
