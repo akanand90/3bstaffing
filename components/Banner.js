@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link"
 import { Title, TitleLogo } from "./common/Title"
 
 const Banner = () => {
@@ -11,7 +12,7 @@ const Banner = () => {
             {/* <TitleLogo title='Lets take your business to the next level!' /> */}
           </div>
           <div>
-            <button className='button-primary'>Request a call-back</button>
+            <Link className='button-primary' href='/contact'>Request a call-back</Link>
           </div>
         </div>
       </section>

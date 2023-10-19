@@ -12,19 +12,14 @@ const Hero = () => {
   return (
     <>
   
-      <section className='hero'>
+      <div className="video">
       <video src="images/slidervideo.mp4" width='100%' autoPlay loop controls/>
-    
-      </section>
-      <section> 
-      
-      
-      </section>
+      </div>
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
             <Title title='The last digital agency you ll ever need' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
+            {/* <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p> */}
           </div>
           <div className='hero-content grid-4'>
          

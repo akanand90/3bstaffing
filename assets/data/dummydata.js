@@ -42,7 +42,7 @@ export const expertise = [
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Health Care",
     cover: "images/e2.jpg",
     desc: ' The financial services industry is currently in the midst of a massive digitalization wave. Mobile devices have become ubiquitous, tech-innovation and artificial intelligence (AI) areas at the core of the transformation, with a new generation of millennial customers demanding enhanced, value-added services and enriched experiences. In light of this new ‘experience economy’, modern businesses must aspire towards becoming 21st Century eEnterprise’s – companies driven by ‘experience-centricity, agility, service and outcome- based orientation’. ',
   },
@@ -53,29 +53,16 @@ export const testimonial = [
     name: "Dipanshu Mehta",
     cover: "images/e1.jpg",
     post: "",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    desc: "The biggest risk is not taking any risk. In a world that's changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
   },
   {
     id: 2,
-    name: "Amandeep",
+    name: "Jay Singh",
     cover: "images/e2.jpg",
     post: "",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    desc: "If you're changing the world, you're working on important things. You're excited to get up in the morning.",
   },
-  {
-    id: 3,
-    name: "Alexander Black",
-    cover: "images/e3.jpg",
-    post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
-  },
-  {
-    id: 4,
-    name: "Diana Green",
-    cover: "images/e4.jpg",
-    post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
-  },
+
 ]
 export const showcase = [
   {
@@ -196,7 +183,54 @@ export const brand = [
     id: 3,
     cover: "images/clients12.jpg",
   },
+
+  {
+    id: 6,
+    cover: "images/clients13.jpg",
+  },
+  {
+    id: 3,
+    cover: "images/client14.png",
+  },
+  {
+    id: 6,
+    cover: "images/client15.png",
+  },
+  {
+    id: 3,
+    cover: "images/client16.png",
+  },
+
+  {
+    id: 6,
+    cover: "images/client17.png",
+  },
+  {
+    id: 3,
+    cover: "images/client18.png",
+  },
  
+  {
+    id: 6,
+    cover: "images/client19.png",
+  },
+  {
+    id: 3,
+    cover: "images/client20.png",
+  },
+  {
+    id: 6,
+    cover: "images/client21.jpg",
+  },
+  // {
+  //   id: 3,
+  //   cover: "images/client22.png",
+  // },
+  {
+    id: 6,
+    cover: "images/client23.jpg",
+  },
+
 ]
 export const blogdata = [
   {
