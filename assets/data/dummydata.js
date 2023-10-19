@@ -67,76 +67,96 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    // title: "Neon Lights",
     cover: "images/clients1.jpg",
-    // catgeory: "DIGITAL MARKETING",
-  },
-  {
-    id: 2,
-    // title: "Futuristic Furniture",
-    catgeory: "WEBSITES",
-    // cover: "images/clients.jpg",
-  },
-  {
-    id: 3,
-    // title: "Smart Living",
-    cover: "images/clients3.jpg",
-    // catgeory: "WEBSITES",
   },
   {
     id: 4,
-    // title: "Light Painting",
+    cover: "images/clients3.jpg",
+  },
+  {
+    id: 5,
     cover: "images/clients4.jpg",
-    // catgeory: "BRANDING	",
   },
   {
-    id: 5,
-    // title: "Ideabox",
+    id: 6,
     cover: "images/clients5.jpg",
-    // catgeory: "BRANDING	",
   },
   {
-    id: 5,
-    // title: "VR Experience",
+    id: 3,
     cover: "images/clients6.jpg",
-    // catgeory: "WEBSITES	",
   },
   {
-    id: 5,
-    // title: "VR Experience",
+    id: 2,
     cover: "images/clients7.jpg",
-    // catgeory: "WEBSITES	",
   },
   {
-    id: 5,
-    // title: "VR Experience",
+    id: 6,
     cover: "images/clients8.jpg",
-    // catgeory: "WEBSITES	",
   },
   {
-    id: 5,
-    // title: "VR Experience",
+    id: 3,
     cover: "images/clients9.jpg",
-    // catgeory: "WEBSITES	",
   },
   {
-    id: 5,
-    // title: "VR Experience",
+    id: 2,
     cover: "images/clients10.jpg",
-    // catgeory: "WEBSITES	",
   },
   {
-    id: 5,
-    // title: "VR Experience",
+    id: 6,
     cover: "images/clients11.jpg",
-    // catgeory: "WEBSITES	",
   },
   {
-    id: 5,
-    // title: "VR Experience",
+    id: 3,
     cover: "images/clients12.jpg",
-    // catgeory: "WEBSITES	",
   },
+
+  {
+    id: 6,
+    cover: "images/clients13.jpg",
+  },
+  {
+    id: 3,
+    cover: "images/client14.png",
+  },
+  {
+    id: 6,
+    cover: "images/client15.png",
+  },
+  {
+    id: 3,
+    cover: "images/client16.png",
+  },
+
+  {
+    id: 6,
+    cover: "images/client17.png",
+  },
+  {
+    id: 3,
+    cover: "images/client18.png",
+  },
+ 
+  {
+    id: 6,
+    cover: "images/client19.png",
+  },
+  {
+    id: 3,
+    cover: "images/client20.png",
+  },
+  {
+    id: 6,
+    cover: "images/client21.jpg",
+  },
+  // {
+  //   id: 3,
+  //   cover: "images/client22.png",
+  // },
+  {
+    id: 6,
+    cover: "images/client23.jpg",
+  },
+
 ]
 export const brand = [
   {
