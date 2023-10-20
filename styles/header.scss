@@ -38,12 +38,14 @@ header {
   position: absolute;
   z-index: 1;
   /* right: -294px; */
-  right: 266px;
+  right: 278px;
   padding: 8px;
 }
 .service:hover  .dropdown{
   display: block;
- 
+ height: 70px;
+ background-color: white;
+ font-size: 14px;
 
 }
 
@@ -78,5 +80,11 @@ header {
     &::after {
       display: none;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdown {
+    right: 0; /* Adjust the right position as needed for smaller screens */
   }
 }

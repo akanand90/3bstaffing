@@ -18,7 +18,7 @@ const Footer = () => {
               <br />
               <br />
               <h3>(973)988-4546x421/(973)988-4546x430</h3>
-              <h3>hr@3bstaffing.com,vijay@3bstaffing.com</h3>
+              <h3>hr@3bstaffing.com</h3>
               <br />
               {/* <button className='button-primary'>Request for quote</button> */}
             </div>

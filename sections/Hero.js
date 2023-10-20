@@ -13,7 +13,7 @@ const Hero = () => {
     <>
   
       <div className="video">
-      <video src="images/slidervideo.mp4" width='100%' autoPlay loop controls/>
+      <video src="images/slidervideo.mp4" width='100%' autoPlay={true} muted={true} controls={true} />
       </div>
       <section className='hero-sec'>
         <div className='container'>
