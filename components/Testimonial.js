@@ -56,7 +56,7 @@ const Testimonial = () => {
       <section className='testimonial'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='WHAT FOUNDER SAID  SAY ABOUT OUR WORK' />
+            <TitleSm title='WHAT FOUNDER SAID ABOUT OUR WORK' />
           </div>
           <div className='cards'  style={{padding:10}}>
             <Slider {...settings}>
