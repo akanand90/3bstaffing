@@ -2,13 +2,16 @@ import React from "react"
 import { Title } from "./common/Title"
 import { brand } from "@/assets/data/dummydata"
 
-const Brand = () => {
+const Brand = (props) => {
   return (
     <>
       <section className='brand'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='WE ARE PROUD TO WORK WITH THESE  OUR  PARTNERS' />
+            <Title title={props.homeClient} />
+            <Title title={props.clients} />
+
+           
           </div>
           <div className='brand-content grid-6 py'>
             {brand.map((item) => (

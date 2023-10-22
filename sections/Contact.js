@@ -1,22 +1,48 @@
 import { Title, TitleSm } from "@/components/common/Title"
 import Link from "next/link"
-import React from "react"
+import React, { useState } from "react"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
 import next from "next"
+import {toast} from 'react-hot-toast'
 
 const Contact = () => {
+  const [data,setData]=useState({country:'',aboutSelf:'',fname:'',lname:'',phone:'',email:'',msg:''})
+   const[msg,setMsg]=useState(false)
+  const handleChane = (e)=>{
+    setData({...data,[e.target.name]:e.target.value})
+  }
+  const submitData = async (e)=>{
+    e.preventDefault()
+ 
+    const response = await fetch("/api/contact",{
+      method:"POST",
+      body:JSON.stringify(data)
+    });
+    const res = await response.json();
+     if(res.mag){
+      setMsg(true)
+      {toast.success('Successfully toasted!')}
+     }
+    else{
+      alert('Fill form')
+    }
+
+    setData({country:'',aboutSelf:'',fname:'',lname:'',phone:'',email:'',msg:''})
+  
+
+  }
   return (
     <>
+    
       <section className='contact bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='CONTACT' /> <br />
-            <br />
-            <Title title="Let's start right now!" className='title-bg' />
+            <TitleSm title='CONTACT' />
+            {msg?<Title title="Email Send successfully" className='title-bg'/>:''}
           </div>
           <div className='content py flex1'>
             <div className='left w-30'>
@@ -83,36 +109,78 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className='right w-70'>
+
+            <div className='right w-95'>
+          
               <TitleSm title="'Let's Talk about Your IT Needs'" />
               <p className='desc-p'>Everyone company needs support, connectivity, and security. However, the specific needs of your company are unique to you. Send us a message, and we can help you find the services that best fit your needs. </p>
 
               <form>
                 <div className='grid-2'>
                   <div className='inputs'>
-                    <span>Name</span>
-                    <input type='text' />
+                    <span>I want help in the following country*</span>
+                  
+                    <select required="" class="select" name="country" onChange={handleChane}>
+                      <option disabled="" value="">Please Select</option>
+                      <option value="United States">United States</option>
+                      <option value="Canada">Canada</option>
+                      <option value="India">India</option>
+                      <option value="Ireland">Ireland</option>
+                      <option value="Switzerland">Switzerland</option>
+                      <option value="Singapore">Singapore</option>
+                      <option value="Hong Kong">Hong Kong</option>
+                      <option value="Philippines">Philippines</option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Sweden">Sweden</option>
+                      <option value="Germany">Germany</option>
+                      <option value="Poland">Poland</option>
+                      <option value="Netherland">Netherland</option>
+                      <option value="Other">Other</option></select>
+                    
                   </div>
+                   
                   <div className='inputs'>
-                    <span>Email</span>
-                    <input type='text' />
+                    <span>About Myself*</span>
+                  
+                    <select className="select" required="" name="aboutSelf" onChange={handleChane}>
+                      <option disabled="" value="">Please Select</option>
+                      <option value="I'm a prospective client">I'm a prospective client</option>
+                      <option value="I'm a current client">I'm a current client</option>
+                      <option value="I'm a prospective employee/contractor">I'm a prospective employee/contractor</option>
+                      <option value="I'm a current employee/contractor">I'm a current employee/contractor</option>
+                      <option value="I'm a prospective vendor">I'm a prospective vendor</option>
+                      <option value="I'm a current vendor">I'm a current vendor</option>
+                      <option value="Im a background check company">I'm a background check company</option>
+                      <option value="Other">Other</option></select>
+                    
                   </div>
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
-                    <span>your budget</span>
-                    <input type='text' />
+                    <span>First name*</span>
+                    <input type='text'onChange={handleChane} name='fname'/>
                   </div>
                   <div className='inputs'>
-                    <span>timeframe</span>
-                    <input type='text' />
+                    <span>last name*</span>
+                    <input type='text' name='lname' onChange={handleChane} />
+                  </div>
+                </div>
+
+                <div className='grid-2'>
+                  <div className='inputs'>
+                    <span>phone</span>
+                    <input type='mobile' name="mobile" onChange={handleChane}/>
+                  </div>
+                  <div className='inputs'>
+                    <span>Email</span>
+                    <input type='email' name="email" onChange={handleChane}/>
                   </div>
                 </div>
                 <div className='inputs'>
-                  <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
-                  <textarea cols='30' rows='10'></textarea>
+                  <span>TELL US A BIT ABOUT YOUR PROJECT</span>
+                  <textarea cols='30' rows='10' name="msg" onChange={handleChane}></textarea>
                 </div>
-                <button className='button-primary'>Submit</button>
+                <button className='button-primary' onClick={submitData}>Submit</button>
               </form>
             </div>
           </div>

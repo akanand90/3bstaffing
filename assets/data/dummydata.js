@@ -161,7 +161,7 @@ export const showcase = [
 export const brand = [
   {
     id: 1,
-    cover: "images/clients1.jpg",
+    cover: "images/wellsfargo.png",
   },
   {
     id: 4,
@@ -206,7 +206,7 @@ export const brand = [
 
   {
     id: 6,
-    cover: "images/clients13.jpg",
+    cover: "images/client13.jpg",
   },
   {
     id: 3,

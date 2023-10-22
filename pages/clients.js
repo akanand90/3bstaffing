@@ -1,4 +1,4 @@
-import { Clients } from "@/sections"
+import { BlogCard, Brand } from "@/components/router"
 import Head from "next/head"
 import React from "react"
 
@@ -8,7 +8,7 @@ const showcase = () => {
       <Head>
         <title> Clients - 3b Staffing</title>
       </Head>
-      <Clients />
+      <Brand  clients='Our Clients'/>
     </>
   )
 }

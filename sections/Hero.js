@@ -6,14 +6,16 @@ import Slider from "@/components/Slider"
 import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
-import React from "react"
+import React, { useEffect } from "react"
 
 const Hero = () => {
+
+ 
   return (
     <>
   
       <div className="video">
-      <video src="images/slidervideo.mp4" width='100%' autoPlay={true} muted={true} controls={true} />
+      <video src="images/slidervideo.mp4" width='100%' autoPlay={true} loop={true} muted={true} controls={true} />
       </div>
       <section className='hero-sec'>
         <div className='container'>
@@ -37,7 +39,7 @@ const Hero = () => {
       <Banner />
       <Testimonial />
       {/* < Clients /> */}
-      <Brand />
+      <Brand  homeClient='WE ARE PROUD TO WORK WITH THESE  OUR  PARTNERS'/>
 
       {/* <div className='text-center'>
         <Title title='Latest news & articles' />
