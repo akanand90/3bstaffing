@@ -120,6 +120,7 @@ video{
       margin-bottom: $xl-3;
       font-size: $xl;
       line-height: $xl-5;
+      max-height: 50px;
     }
     .image {
       @include flex(center, none, none);

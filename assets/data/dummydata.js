@@ -179,13 +179,10 @@ export const brand = [
     id: 3,
     cover: "images/clients6.jpg",
   },
-  {
-    id: 2,
-    cover: "images/clients7.jpg",
-  },
+
   {
     id: 6,
-    cover: "images/clients8.jpg",
+    cover: "images/bmo.png",
   },
   {
     id: 3,
@@ -205,20 +202,12 @@ export const brand = [
   },
 
   {
-    id: 6,
-    cover: "images/client13.jpg",
+    id: 3,
+    cover: "images/nagaro.jpg",
   },
   {
     id: 3,
-    cover: "images/client14.png",
-  },
-  {
-    id: 6,
-    cover: "images/client15.png",
-  },
-  {
-    id: 3,
-    cover: "images/client16.png",
+    cover: "images/questglobal.png",
   },
 
   {

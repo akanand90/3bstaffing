@@ -4,15 +4,21 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
+import { useMediaQuery } from 'react-responsive';
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
   const [open, setOpen] = useState(false)
-
+  const[togle,setTogal]=useState(false)
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   const router = useRouter()
   useEffect(() => {
     setActiveLink(router.pathname)
   }, [router.pathname])
+
+ let showHide = ()=>{
+   setTogal(!togle)
+  }
   return (
     <>
       <header className="header">
@@ -38,11 +44,10 @@ const Header = () => {
             Clients
 
             </Link>
-            <Link href='#' className="service">
+            <Link href='#' className="service" onClick={showHide} >
               Services
             
-               
-                <p className="dropdown">
+               <p className={isMobile?'dropdownMobile':'dropdown'}>
                 
                 <Link href='/globaltalent' className={activeLink == "/globaltalent" ? "activeLink" : "none"}>
             Global Talent 
@@ -51,6 +56,7 @@ const Header = () => {
               Health Care Talent
             </Link>
                 </p>
+            
                 </Link>
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact

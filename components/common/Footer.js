@@ -39,7 +39,10 @@ const Footer = () => {
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/service'>Staffing Services</Link>
+                <Link href='/globaltalent'>Global Talent</Link>
+              </li>
+              <li>
+                <Link href='/helthcaretalent'>Health Care Talent</Link>
               </li>
               <li>
                 <Link href='/'>Application Development</Link>
@@ -60,12 +63,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
+                  <Link target="_blank" href='https://instagram.com/3bstaffing?igshid=NjIwNzIyMDk2Mg=='>
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>

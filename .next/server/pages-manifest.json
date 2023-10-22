@@ -3,9 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/clients": "pages/clients.js",
-  "/career": "pages/career.js",
-  "/contact": "pages/contact.js",
   "/globaltalent": "pages/globaltalent.js",
-  "/helthcaretalent": "pages/helthcaretalent.js"
+  "/helthcaretalent": "pages/helthcaretalent.js",
+  "/clients": "pages/clients.js"
 }
