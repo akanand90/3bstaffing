@@ -18,18 +18,9 @@ const HealthcareTalent = () => {
             Nursing and   Health Staffing Solutions'/>
            
           </div>
-          <div className='grid-2 py'>
-            {/* {expertise.map((item) => (
-              <Card data={item} key={item.id} caption={item.post} show={true} />
-            ))} */}
-           
-
-           
-
-          </div>
 
  <div class="d-flex justify-content-between">
-  <div class="p-2" style={{"width":400}}>
+  <div class="p-2">
     <h4>Global Nurse Staffing Solutions</h4>
     <p>In more than 50 countries, 3b staffing provides quality talent for all industries that rely on healthcare professionals.</p><br/>
     <br/>
@@ -41,7 +32,7 @@ const HealthcareTalent = () => {
     <Accordion title="Crisis" content="We know crises across the globe can create urgent gaps in staffing levels, and create an immediate need for crisis nurse staffing. Thoroughly experienced in crisis response,3B  provides the nurse coverage you require at the critical time you require it." />
     <Accordion title="Electronic Medical Record (EMR)" content="3B EMR staffing solutions ensure smooth Electronic Medical Record (EMR) transitions, integrations and updates, each step of the way — from discovery, to system implementation and upgrades, through to completion" />
   </div>
-  <div class="p-2" style={{"width":800}}>
+  <div class="gt-pic">
 <img src="images/healthimg1.jpg" width='100%'/>
   </div>
   
@@ -51,10 +42,10 @@ const HealthcareTalent = () => {
 
 
     <div class="d-flex justify-content-between">
-    <div class="p-2" style={{"width":800}}>
+    <div class="gt-pic">
 <img src="images/health3.jpg" width='100%'/>
   </div>
-  <div class="p-2" style={{"width":400}}>
+  <div class="p-2">
     <h4>End-to-End   Health Staffing Solutions</h4>
     <p>Gain flexibility and agility in meeting your ever-changing talent needs across the globe.</p><br/>
     <br/>
@@ -73,13 +64,13 @@ const HealthcareTalent = () => {
     <hr/>
     <div class="d-flex justify-content-between">
     
-  <div class="p-2" style={{"width":400}}>
+  <div class="p-2">
     <h4>Receive only the highest-quality candidates</h4>
     <p>We maintain a close relationship with the local talent market by having recruiters located in 14 countries. So, we know where to source even the most hard-to-find skills and understand what "great" talent looks like. After interviewing and reviewing candidates, you receive the top-ranked candidates along with their assessment and comments from their interview.</p><br/>
     <br/>
 
   </div>
-  <div class="p-2" style={{"width":800}}>
+  <div class="gt-pic">
 <img src="images/healthimg2.jpg" width='100%'/>
   </div>
   

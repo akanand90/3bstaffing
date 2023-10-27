@@ -422,3 +422,32 @@ footer {
     }
   }
 }
+.p-2{
+  width:60%;
+ 
+}
+.gt-pic{
+  width: 40%;
+ 
+}
+.line{
+  height: 2px;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  video{
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+  }
+  .p-2{
+    width:100%;
+  }
+  .gt-pic{
+    width: 100%;
+  }
+  .d-flex{
+    flex-direction: column-reverse;
+  }
+ 
+}
