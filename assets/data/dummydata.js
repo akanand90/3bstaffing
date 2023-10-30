@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={100} />,
-    title: "500+ cuccessful cases in portfolio",
+    title: "500+ Successful cases in portfolio",
   },
   {
     icon: <BiUser size={100} />,
@@ -25,40 +25,41 @@ export const expertise = [
   {
     id: 1,
     title: "Financial Services",
-    cover: "images/e1.jpg",
+    cover: "images/finance1.jpg",
+    desc: 'The financial services industry is currently in the midst of a massive digitalization wave. Mobile devices have become ubiquitous, tech-innovation and artificial intelligence (AI) areas at the core of the transformation, with a new generation of millennial customers demanding enhanced, value-added services and enriched experiences. In light of this new ‘experience economy’, modern businesses must aspire towards becoming 21st Century eEnterprise’s – companies driven by ‘experience-centricity, agility, service and outcome- based orientation’. ',
+  },
+  {
+    id: 4,
+    title: "Health Care",
+    cover: "images/medical.png",
     desc: ' The financial services industry is currently in the midst of a massive digitalization wave. Mobile devices have become ubiquitous, tech-innovation and artificial intelligence (AI) areas at the core of the transformation, with a new generation of millennial customers demanding enhanced, value-added services and enriched experiences. In light of this new ‘experience economy’, modern businesses must aspire towards becoming 21st Century eEnterprise’s – companies driven by ‘experience-centricity, agility, service and outcome- based orientation’. ',
   },
   {
     id: 2,
     title: "Digital Marketing",
-    cover: "images/e2.jpg",
-    desc: ' The financial services industry is currently in the midst of a massive digitalization wave. Mobile devices have become ubiquitous, tech-innovation and artificial intelligence (AI) areas at the core of the transformation, with a new generation of millennial customers demanding enhanced, value-added services and enriched experiences. In light of this new ‘experience economy’, modern businesses must aspire towards becoming 21st Century eEnterprise’s – companies driven by ‘experience-centricity, agility, service and outcome- based orientation’. ',
+    cover: "images/digi.webp",
+    desc: 'The financial services industry is currently in the midst of a massive digitalization wave. Mobile devices have become ubiquitous, tech-innovation and artificial intelligence (AI) areas at the core of the transformation, with a new generation of millennial customers demanding enhanced, value-added services and enriched experiences. In light of this new ‘experience economy’, modern businesses must aspire towards becoming 21st Century eEnterprise’s – companies driven by ‘experience-centricity, agility, service and outcome- based orientation’. ',
   },
   {
     id: 3,
     title: "E-Commerce",
-    cover: "images/e3.jpg",
-    desc: ' The financial services industry is currently in the midst of a massive digitalization wave. Mobile devices have become ubiquitous, tech-innovation and artificial intelligence (AI) areas at the core of the transformation, with a new generation of millennial customers demanding enhanced, value-added services and enriched experiences. In light of this new ‘experience economy’, modern businesses must aspire towards becoming 21st Century eEnterprise’s – companies driven by ‘experience-centricity, agility, service and outcome- based orientation’. ',
+    cover: "images/ecom.jpg",
+    desc: 'The financial services industry is currently in the midst of a massive digitalization wave. Mobile devices have become ubiquitous, tech-innovation and artificial intelligence (AI) areas at the core of the transformation, with a new generation of millennial customers demanding enhanced, value-added services and enriched experiences. In light of this new ‘experience economy’, modern businesses must aspire towards becoming 21st Century eEnterprise’s – companies driven by ‘experience-centricity, agility, service and outcome- based orientation’. ',
   },
-  {
-    id: 4,
-    title: "Health Care",
-    cover: "images/e2.jpg",
-    desc: ' The financial services industry is currently in the midst of a massive digitalization wave. Mobile devices have become ubiquitous, tech-innovation and artificial intelligence (AI) areas at the core of the transformation, with a new generation of millennial customers demanding enhanced, value-added services and enriched experiences. In light of this new ‘experience economy’, modern businesses must aspire towards becoming 21st Century eEnterprise’s – companies driven by ‘experience-centricity, agility, service and outcome- based orientation’. ',
-  },
+
 ]
 export const testimonial = [
   {
     id: 1,
     name: "Dipanshu Mehta",
-    cover: "images/e1.jpg",
+    cover: "images/avtar.jpg",
     post: "",
     desc: "The biggest risk is not taking any risk. In a world that's changing quickly, the only strategy that is guaranteed to fail is not taking risks.",
   },
   {
     id: 2,
     name: "Jay Singh",
-    cover: "images/e2.jpg",
+    cover: "images/avtar.jpg",
     post: "",
     desc: "If you're changing the world, you're working on important things. You're excited to get up in the morning.",
   },

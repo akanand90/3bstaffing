@@ -9,12 +9,13 @@ const Footer = () => {
       <footer>
         <div className='container'>
           <div className='grid-4'>
-            <div className='logo'>
-              <TitleLogo title='Staffing' caption='3B' className='logobg' />
-              <br />
-              <span>
-                Questions? Reach us <br /> Monday – Friday from 6:30 am to 3am
-              </span>
+            <div>
+              {/* <TitleLogo title='Staffing' caption='3B' className='logobg' /> */}
+      
+              <span style={{color:'white',fontWeight:600}}>
+                Questions? </span>
+                <br />  Reach us Monday – Friday from 6:30 PM to 3:30 AM
+             
               <br />
               <br />
               <h3>(973)988-4546x421/(973)988-4546x430</h3>

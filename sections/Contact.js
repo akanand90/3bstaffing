@@ -118,7 +118,7 @@ const Contact = () => {
               <form>
                 <div className='grid-2'>
                   <div className='inputs'>
-                    <span>I want help in the following country*</span>
+                    <h2>I want help in the following country*</h2>
                   
                     <select required="" class="select" name="country" onChange={handleChane}>
                       <option disabled="" value="">Please Select</option>

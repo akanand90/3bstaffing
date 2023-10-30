@@ -56,8 +56,9 @@ const Testimonial = () => {
       <section className='testimonial'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='WHAT FOUNDER SAID ABOUT OUR WORK' />
+          <h2>Few words from our founders</h2>
           </div>
+          {/* <h2 style={{textAlign:'center'}}>Few words from our founders</h2> */}
           <div className='cards'  style={{padding:10}}>
             <Slider {...settings}>
               {testimonial.map((user) => (

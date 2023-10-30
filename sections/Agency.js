@@ -9,15 +9,15 @@ const Agency = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='ABOUT AGENCY' /> <br />
+            <h2>ABOUT AGENCY</h2> <br />
             <br />
-            <Title title='The last digital agency you will ever need!' className='title-bg' />
+            <Title title='The digital agency you will ever need!' className='title-bg' />
           </div>
 
           <div className='content flex1'>
-            <div className='left w-60 py'>
+            <div className='left w-50 py'>
               <TitleSm title='Why 3B Staffing?' />
-              <p className='desc-p'>3B Staffing is an emerging global leader in IT staffing solutions headquartered in New Jersey. Since its inception, the organization has rapidly gained recognition as one of the fastest growing IT staffing firms in the nation. 3B Staffing delivers value-driven IT staffing resources that organizations require for enhancing business solutions and improving project outcomes. We provide cutting-edge IT staffing expertise in Enterprise Resource Planning and Business Intelligence & Data Warehousing, Content & Identity Management, Infrastructure and more. We work with world-leading system integrator, Fortune 500 clients and public-sector organizations with deep industry focus. Our comprehensive knowledge, industry expertise, global footprint and unique service capabilities have enabled us to provide the best in industry staffing solutions throughout the U.S.A, Mexico, and Australia. Our reputation is solid for hitting the bull's eye with every resource deployment. Our core values and philosophy voice our commitment in building successful relationships with clients, employees and the small business community. We are an award-winning organization, touted as one of Best Places to Work', a Top-notch Recruiting Firm, positioned in the leaders' quadrant as one of America's most advanced sustained-growth firms.</p>
+              <p className='desc-p'>3B Staffing is an emerging global leader in IT staffing and healthcare solutions, our headquarter located in New Jersey. Since its inception, the organization has rapidly gained recognition as one of the fastest growing IT staffing firms . 3B Staffing delivers value-driven IT and healthcare staffing resources that organizations require for enhancing business solutions and improving project outcomes. We provide cutting-edge IT and healthcare staffing expertise in Enterprise Resource Planning and Business Intelligence & Data Warehousing, Content & Identity Management, Infrastructure and more. We work with world-leading system integrator, Fortune 500 clients and public-sector organizations with deep industry focus. Our comprehensive knowledge, industry expertise, global footprint and unique service capabilities have enabled us to provide the best in industry staffing solutions throughout the U.S.A, Mexico, and Australia. Our reputation is solid for hitting the bull's eye with every resource deployment. Our core values and philosophy voice our commitment in building successful relationships with clients, employees and the small business community. We are an award-winning organization, we have one of the Best Places to Work', a Top-notch Recruiting Firm, positioned in the leaders' quadrant as one of America's most advanced sustained-growth firms.</p>
               <div className='grid-3'>
                 <div className='box'>
                   <h1 className='indigo'>10+</h1>

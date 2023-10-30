@@ -39,7 +39,7 @@ const Hero = () => {
       <Banner />
       <Testimonial />
       {/* < Clients /> */}
-      <Brand  homeClient='WE ARE PROUD TO WORK WITH THESE  OUR  PARTNERS'/>
+      <Brand  homeClient='WE ARE PROUD TO WORK WITH THESE PARTNERS'/>
 
       {/* <div className='text-center'>
         <Title title='Latest news & articles' />
