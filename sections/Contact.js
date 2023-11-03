@@ -113,7 +113,8 @@ const Contact = () => {
             <div className='right w-95'>
              <h2>Let's Talk about Your IT Needs</h2>
               {/* <TitleSm title="'Let's Talk about Your IT Needs'" /> */}
-              <p className='desc-p'>Company needs support, connectivity, and security To grow together please share your queries requirement there 👇🏻 </p>
+              <p className='desc-p'>Company need support, connectivity and security to grow their businesses.<br/>
+              To grow together there please share your queries/requirements 👇🏻 </p>
 
               <form>
                 <div className='grid-2'>
