@@ -20,7 +20,7 @@ const Hero = () => {
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='The last digital agency you ll ever need' />
+            <Title title='One of the best digital agency' className='title-bg'/>
             {/* <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p> */}
           </div>
           <div className='hero-content grid-4'>

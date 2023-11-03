@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h4>3B Staffing LLC</h4>
+                  <h4>3B Staffing Pvt. Ltd.</h4>
                   <span>485B US Highway 1 S, STE 300, Iselin, New Jersey 08830, United States
 
 
@@ -65,7 +65,7 @@ const Contact = () => {
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
                   <h3>Offshore - India - Noida</h3>
-                  <h4>3B Staffing LLC</h4>
+                  <h4>3B Staffing Pvt. Ltd.</h4>
                   <span>H-32, Sector 63, Noida, UP 201301
 
 
@@ -75,7 +75,7 @@ const Contact = () => {
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
                   <h4>Offshore - India - Hyderabad - Nizampet</h4>
-                  <h4>3B Staffing LLC</h4>
+                  <h4>3B Staffing Pvt. Ltd.</h4>
                   <span>SS Mansion, Floor 4, Nizampet Rd, E Block, Nizampet, Hyderabad, Telangana 500090, India
 
 
@@ -111,14 +111,14 @@ const Contact = () => {
             </div>
 
             <div className='right w-95'>
-          
-              <TitleSm title="'Let's Talk about Your IT Needs'" />
-              <p className='desc-p'>Everyone company needs support, connectivity, and security. However, the specific needs of your company are unique to you. Send us a message, and we can help you find the services that best fit your needs. </p>
+             <h2>Let's Talk about Your IT Needs</h2>
+              {/* <TitleSm title="'Let's Talk about Your IT Needs'" /> */}
+              <p className='desc-p'>Company needs support, connectivity, and security To grow together please share your queries requirement there 👇🏻 </p>
 
               <form>
                 <div className='grid-2'>
                   <div className='inputs'>
-                    <h2>I want help in the following country*</h2>
+                    <span>I want help in the following country*</span>
                   
                     <select required="" class="select" name="country" onChange={handleChane}>
                       <option disabled="" value="">Please Select</option>
