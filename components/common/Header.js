@@ -44,9 +44,10 @@ const Header = () => {
             Clients
 
             </Link>
-            <Link href='#' className="service" onClick={showHide} >
+            <div className="service" style={{display:'inline',color:'black'}} onClick={showHide} >
+              <Link href='#'>
               Services
-            
+            </Link>
                <p className={isMobile?'dropdownMobile':'dropdown'}>
                 
                 <Link href='/globaltalent' className={activeLink == "/globaltalent" ? "activeLink" : "none"}>
@@ -57,7 +58,8 @@ const Header = () => {
             </Link>
                 </p>
             
-                </Link>
+                </div>
+                
             <Link href='/contact' className={activeLink == "/contact" ? "activeLink" : "none"}>
               Contact
             </Link>

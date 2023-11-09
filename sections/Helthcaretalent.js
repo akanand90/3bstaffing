@@ -12,8 +12,7 @@ const HealthcareTalent = () => {
           <div className='heading-title'>
             
             <Title title='Healthcare Talent Solutions'  className='title-bg' />
-             <br />
-            <br />
+            
             <TitleSm title=' For decades, the greatest brands have relied on 3b staffing for
             Nursing and   Health Staffing Solutions'/>
            
@@ -22,8 +21,8 @@ const HealthcareTalent = () => {
  <div class="d-flex justify-content-between">
   <div class="p-2">
     <h4>Global Nurse Staffing Solutions</h4>
-    <p>In more than 50 countries, 3b staffing provides quality talent for all industries that rely on healthcare professionals.</p><br/>
-    <br/>
+    <p>In more than 50 countries, 3b staffing provides quality talent for all industries that rely on healthcare professionals.</p>
+   
     <p>From healthcare and pharmaceutical, to clinical, you can come to 3b staffing for top talent in any healthcare role</p>
 
     <Accordion title="Travel Nurse" content="With a robust network of fully-vetted, highly-qualified and flexible travel nurses, 3b staffing is ready to fill gaps and meet your organization's nurse staffing needs." />
@@ -47,10 +46,9 @@ const HealthcareTalent = () => {
   </div>
   <div class="p-2">
     <h4>End-to-End   Health Staffing Solutions</h4>
-    <p>Gain flexibility and agility in meeting your ever-changing talent needs across the globe.</p><br/>
-    <br/>
+    <p>Gain flexibility and agility in meeting your ever-changing talent needs across the globe.</p>
+    
     <p>Our award-winning service attracts and retains a vibrant network of top talent throughout EMEA, Americas and APAC. So, you can efficiently secure   health clinicians from any disciplines and setting: .</p>
-
     <Accordion title="Imaging" content="3B’s best-in-class imaging and radiology staffing services help you fill positions across a spectrum of specialty and practice settings - hospitals, doctor's offices, urgent care centers, outpatient surgery centers, diagnostic labs and imaging centers" />
     <Accordion title="Respiratory " content="Healthcare facilities across the globe depend on 3b staffing for qualified candidates to fill laboratory positions. Our talent pool is pre-vetted, ready-to-work and spans a variety of disciplines and settings – from local contractors and travel clinicians, to seasonal staffing or per diem workers." />
     <Accordion title="Therapy" content="Our robust network of qualified and trusted therapy professionals will relieve your   therapy staffing needs. Our outstanding customer service and expert career of therapy professionals will take your therapy staffing to the next level." />
@@ -66,9 +64,7 @@ const HealthcareTalent = () => {
     
   <div class="p-2">
     <h4>Receive only the highest-quality candidates</h4>
-    <p>We maintain a close relationship with the local talent market by having recruiters located in 14 countries. So, we know where to source even the most hard-to-find skills and understand what "great" talent looks like. After interviewing and reviewing candidates, you receive the top-ranked candidates along with their assessment and comments from their interview.</p><br/>
-    <br/>
-
+    <p>We maintain a close relationship with the local talent market by having recruiters located in 14 countries. So, we know where to source even the most hard-to-find skills and understand what "great" talent looks like. After interviewing and reviewing candidates, you receive the top-ranked candidates along with their assessment and comments from their interview.</p>
   </div>
   <div class="gt-pic">
 <img src="images/healthimg2.jpg" width='100%'/>

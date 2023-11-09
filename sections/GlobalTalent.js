@@ -31,8 +31,7 @@ const GlobalTalent = () => {
                 50 countries for IT, clinical, scientific, engineering, and
                 professional roles, at any scale.
               </p>
-              <br />
-              <br />
+             
             </div>
             <div class="gt-pic">
               <img src="images/7.png" width="100%" />
@@ -58,8 +57,7 @@ const GlobalTalent = () => {
                 relationships is what makes half of the Fortune 500 companies
                 consider 3b staffing their end-to-end talent solution.
               </p>
-              <br />
-              <br />
+            
             </div>
           </div>
 
@@ -78,8 +76,7 @@ const GlobalTalent = () => {
                 maintain compliance for contract talent and employees in more
                 than 50 countries.
               </p>
-              <br />
-              <br />
+              
             </div>
             <div class="gt-pic">
               <img src="images/3.png" width="100%" />
@@ -103,9 +100,8 @@ const GlobalTalent = () => {
                 extend your current process consistency and efficiencies across
                 the globe, so you:
               </p>
-              <br />
-              <br />
-              <ul>
+             
+              <ol>
                 <li>
                   <p>Maintain compliance with local employment laws.</p>
                 </li>
@@ -118,14 +114,14 @@ const GlobalTalent = () => {
                 <li>
                   <p>Gain transparency into talent usage and spend.</p>
                 </li>
-              </ul>
+              </ol>
             </div>
           </div>
 
           <hr />
 
           <div class="d-flex justify-content-between">
-            <div class="p-2" style={{ width: 400 }}>
+            <div class="p-2" style={{ width:500 }}>
               <h4>STATEMENT OF WORK</h4>
               <h5>Results-focused SOW management</h5>
               <p>
@@ -135,8 +131,7 @@ const GlobalTalent = () => {
                 your non-employee workforce programs while improving the quality
                 of results.
               </p>
-              <br />
-              <br />
+            
             </div>
             <div class="gt-pic">
               <img src="images/9.png" width="100%" />
@@ -152,8 +147,6 @@ const GlobalTalent = () => {
               title="DIVERSITY IS INTENTIONALLY BUILT IN"
               className="title-bg"
             />
-            <br />
-            <br />
             <h5>
               3B embraced diversity from its inception as it was founded by
               subject matter experts coming together from disparate countries.

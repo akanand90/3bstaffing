@@ -35,17 +35,22 @@ header {
 }
 .dropdown{
   display: none;
-  position: absolute;
+ 
   z-index: 1;
   /* right: -294px; */
   right: 278px;
   padding: 8px;
 }
+.service{
+  display: inline;
+  color: black;
+}
 .service:hover .dropdown{
-  display: block;
+ display: block;
  height: 70px;
  background-color: white;
  font-size: 14px;
+ position: absolute;
 }
 
 
@@ -73,7 +78,7 @@ header {
       }
     }
 
-    
+
     .dropdown{
       display: none;
       position: absolute;

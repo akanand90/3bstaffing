@@ -41,7 +41,7 @@ const Contact = () => {
       <section className='contact bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='CONTACT' />
+            <Title title='Contact' className='title-bg'/>
             {msg?<Title title="Email Send successfully" className='title-bg'/>:''}
           </div>
           <div className='content py flex1'>
